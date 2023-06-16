@@ -1,0 +1,13 @@
+.info {
+    color: #444;
+    text-align: center;
+    box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+    padding: 20px 30px;
+    margin-bottom: 30px;
+    width: 85%;
+   
+}
+
+/* .info p {
+    padding: 10% 20%;
+} */ 

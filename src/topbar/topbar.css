@@ -1,0 +1,31 @@
+#topbar {
+    background: #fff;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+}
+
+.container-clearfix{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-info-left a {
+    text-decoration: none;
+    line-height: 1;
+    color: #444;
+    transition: 0.3s;
+}
+
+.social-links-right{
+    display: flex;
+}
+
+.social-links-right a {
+    text-decoration: none;
+    color: #5c768d;
+    padding: 4px 12px;
+    display: inline-block;
+    line-height: 1px;
+    transition: 0.3s;
+}
