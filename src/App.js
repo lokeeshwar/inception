@@ -1,7 +1,7 @@
 import './App.css';
 import Header from './header/header';
 import TopBar from './topbar/topbar';
-// import Hero from './hero/hero';
+import Hero from './hero/hero';
 import Services from './services/services';
 import Aboutsec from './about-us-sec/about-us';
 import Aboutbtm from './about-btm/about-btm';
@@ -11,14 +11,14 @@ import Countsbtm from './countsbtm/countsbtm';
 import News from './news/news';
 import Contact from './contact/contact';
 import Product from './header/navbar/product/product';
+import Contactus from './contact-us/contactus';
 
 function App() {
   return (
     <div className="App">
       <TopBar/>
       <div className='head'>      <Header/></div>
-
-      {/* <Hero/> */}
+      <Hero/>
       <Services/>
       <Aboutsec/>
       <Aboutlist/>
@@ -28,6 +28,8 @@ function App() {
       <News/>
       <Contact/>
       <div> <Product/> </div>
+      <Contactus/>
+     
     </div>
   );
 }

@@ -1,0 +1,14 @@
+div .cus form .row-us {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.cus .row-us input {
+    height: 50px;
+    border-color: #ffffff;
+    border-radius: 0;
+    width: 25%;
+}
